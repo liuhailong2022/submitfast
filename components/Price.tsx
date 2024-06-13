@@ -15,9 +15,9 @@ const Price = () => {
           <p className="font-light text-2xl text-activeButton text-center">
             {config.contents.price.description}
           </p>
-          <div className="flex xl:flex-row flex-col w-fit mx-auto gap-12 items-center mt-12">
+          <div className="flex flex-wrap justify-center gap-12 items-center mt-12">
             {config.contents.price.plans.map((plan, index) => (
-              <div key={index} className={`${styles.priceCard} flex flex-col items-center gap-5 bg-white p-6 rounded-md shadow-md`}>
+              <div key={index} className={`${styles.priceCard} flex flex-col items-center gap-5 bg-white p-6 rounded-md shadow-md w-full sm:w-1/2 lg:w-1/3`}>
                 <h3 className="text-2xl font-bold text-activeButton">
                   {plan.title}
                 </h3>
