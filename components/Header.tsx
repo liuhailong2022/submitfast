@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, MouseEvent } from "react";
 import Image from "next/image";
 import Link from "next/link";
 // config
@@ -9,9 +9,9 @@ import config from "@/config/general";
 const Header = () => {
   const [buttonText, setButtonText] = useState("Register");
 
-  const handleClick = (e) => {
+  const handleClick = (e: MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    setButtonText("Coming soon...");
+    setButtonText("Coming Soon!");
     setTimeout(() => {
       setButtonText("Register");
     }, 3000);
