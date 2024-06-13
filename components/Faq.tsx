@@ -9,7 +9,7 @@ const Faq = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
 
   return (
-    <div className="mb-24">
+    <div id="faq" className="mb-24">
       <Title label="Frequently Asked Questions" />
       <div className="flex gap-8 justify-center">
         <div className="w-11/12 xl:w-5/12 flex flex-col gap-4">

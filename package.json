@@ -1,5 +1,5 @@
 {
-  "name": "waitlist-landing-page",
+  "name": "submitfast",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,5 +24,10 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  }
+  },
+  "description": "Automatically submit your AI tools to directories.",
+  "main": "index.js",
+  "repository": "https://github.com/liuhailong2022/submitfast.git",
+  "author": "Jasontopia <liuhailong2022@gmail.com>",
+  "license": "MIT"
 }

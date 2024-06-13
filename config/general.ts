@@ -1,107 +1,128 @@
 const config = {
-    domain: "theproduct.com",
-    title: "Waitlist Page | The Product",
-    description: "Elevate your texts with the perfect emojis. Usemoji.app is coming soon! Join the waiting list for updates and exclusive access.",
-    subscribeForm: "https://dashboard.mailerlite.com/forms/631411/101265918935434456/share",
+    domain: "submitfast.ai",
+    title: "Waitlist Page | SubmitFast.ai",
+    description: "Automatically Submit Your AI Tools to Top Directories.",
+    subscribeForm: "https://dashboard.mailerlite.com/forms/983877/123903248109143221/share",
 
     socials: {
-        twitter: "https://x.com/beratbozkurt0",
+        twitter: "https://x.com/aitoolist",
     },
 
     contents: {
-        title: "Discover Your Ideal Experience with The Product",
-        markOfTitle: "The Product", // its for marking the title. The text must contain on title. If not, it will be ignored.
-        description: `Step into a realm of possibilities with The Product. Immerse yourself
-        in a shopping journey where intuitive features and cutting-edge design
-        come together to enhance your every selection.`,
+        title: "Automatically Submit Your AI Tools to Top Directories with SubmitFast.ai",
+        markOfTitle: "SubmitFast.ai", // its for marking the title. The text must contain on title. If not, it will be ignored.
+        description: `Save time and increase visibility. SubmitFast.ai automates submissions to top directories, boosting your tool's exposure and SEO in minutes. Join our waitlist for early access.`,
 
         about: [
             {
                 id: 1,
-                emoji: "💡",
-                title: "Innovative Design",
-                description: "The Product is designed to be a seamless experience for all users. Our team has worked tirelessly to create a platform that is both intuitive and visually stunning."
+                emoji: "⏱️",
+                title: "Turn Hours into Minutes",
+                description: "SubmitFast.ai streamlines the submission process, making it quick and efficient. Save hours of manual work with our automated solution."
             },
             {
                 id: 2,
                 emoji: "🚀",
-                title: "Fast and Efficient",
-                description: "We understand that your time is valuable. That's why we've optimized The Product to be as fast and efficient as possible. Spend less time shopping and more time enjoying your purchases."
+                title: "Boost Your Visibility",
+                description: "Get your AI tools noticed. SubmitFast.ai rapidly submits your tools to top directories, ensuring they reach a wider audience."
             },
             {
                 id: 3,
-                emoji: "🌎",
-                title: "Global Reach",
-                description: "The Product is available to users all around the world. No matter where you are, you can access our platform and discover the perfect product for you."
+                emoji: "🔗",
+                title: "Enhance Your SEO",
+                description: "Improve your search engine rankings. SubmitFast.ai builds valuable backlinks from high-traffic directories, boosting your online presence."
             }
-        ],
+        ],        
 
         howWorks: [
             {
-                title: "Install the extension",
-                description: "The Product is available as a browser extension. Simply install it and you're ready to go!"
+                "title": "Sign Up",
+                "description": "Create an account on SubmitFast.ai to get started. It's quick and easy!"
             },
             {
-                title: "Select your text",
-                description: "Highlight any text on any website and The Product will automatically will find emoji that match your selection."
+                "title": "Enter Your AI Tool Details",
+                "description": "Fill in the details of your AI tool once, including any specific information required by the directories. Save time and avoid repetitive tasks."
             },
             {
-
-                title: "Personalize suggestions",
-                description: "Customize your emoji suggestions based on your preferences and writing style."
+                "title": "Automate Submission",
+                "description": "Let SubmitFast.ai automatically submit your AI tool to all integrated directories, ensuring comprehensive coverage and maximum visibility."
             },
             {
-                title: "Seamless integration",
-                description: "Enjoy effortless integration with your browser, making emoji suggestions readily available."
-            },
-            {
-                title: "Copy and paste",
-                description: "Once you've selected your emoji, simply copy it and paste it wherever you like. It's that easy!"
-            },
+                "title": "Track Your Progress",
+                "description": "Monitor the status of your submissions and receive updates on the performance of your AI tool."
+            }
         ],
 
-        price: {
-            description: "Unlock endless emoji possibilities with our monthly subscription. Cancel anytime, stress-free!",
-            price: "9$",
-
-            advantages: ['Cancel anytime.', 'Analyze text emotions for suitable emoji suggestions.', 'Unlimited emoji access: Explore vast library.', 'Bullet points yield perfect results.', 'Ease of use.']
-        },
+        price:  {
+            description: "Join our waitlist now to enjoy exclusive early access and special pricing upon launch.",
+            pricing: "Special Early Bird Pricing",
+            plans: [
+              {
+                title: "Basic",
+                advantages: [
+                  "Submit to up to 25 directories.",
+                  "Basic analytics and tracking.",
+                  "Standard support."
+                ]
+              },
+              {
+                title: "Standard",
+                advantages: [
+                  "Submit to up to 100 directories.",
+                  "Advanced analytics and tracking.",
+                  "Priority support."
+                ]
+              },
+              {
+                title: "Premium",
+                advantages: [
+                  "Submit to unlimited directories.",
+                  "Comprehensive analytics and tracking.",
+                  "Dedicated support."
+                ]
+              }
+            ]
+          },
 
         faq: [
             {
-                question: "What is The Product?",
-                answer: "The Product is a browser extension that suggests emoji based on your text selection. It's designed to make your online experience more fun and engaging."
+              "question": "What is SubmitFast.ai?",
+              "answer": "SubmitFast.ai is a platform that automates the submission of your AI tools to various directories, saving you time and boosting your tool's visibility."
             },
             {
-                question: "How do I install The Product?",
-                answer: "The Product is available as a browser extension. Simply install it and you're ready to go!"
-            },
-
-            {
-                question: "How do I use The Product?",
-                answer: "Highlight any text on any website and The Product will automatically will find emoji that match your selection."
+              "question": "How do I sign up for SubmitFast.ai?",
+              "answer": "Simply create an account on SubmitFast.ai. Joining the waitlist is quick and easy, and grants you early access to all features upon launch."
             },
             {
-                question: "Is The Product free?",
-                answer: "The Product is available as a monthly subscription. You can cancel anytime, stress-free!"
+              "question": "How does SubmitFast.ai save me time?",
+              "answer": "SubmitFast.ai automates the entire submission process, reducing the time required from hours to just minutes."
             },
             {
-                question: "Can I customize my emoji suggestions?",
-                answer: "Yes! You can personalize your emoji suggestions based on your preferences and writing style."
+              "question": "What directories does SubmitFast.ai submit to?",
+              "answer": "SubmitFast.ai submits your AI tools to a comprehensive list of high-traffic directories, ensuring maximum exposure."
             },
             {
-                question: "Is The Product available globally?",
-                answer: "Yes! The Product is available to users all around the world."
+              "question": "Is SubmitFast.ai free?",
+              "answer": "Joining the waitlist gives you early access to all features when the platform launches, including special early bird pricing."
             },
             {
-                question: "How do I cancel my subscription?",
-                answer: "You can cancel your subscription anytime. Simply go to your account settings and click 'cancel subscription'."
+              "question": "How do I track my submissions?",
+              "answer": "Currently, tracking is not available. You will be notified when this feature is launched."
             },
             {
-                question: "How do I contact support?",
-                answer: "You can contact our support team by emailing support@theproduct.com."
+              "question": "What kind of support is available?",
+              "answer": "Waitlist members receive priority customer support. You can contact our support team for any assistance you need."
+            },
+            {
+              "question": "Can I cancel anytime?",
+              "answer": "Yes, you can cancel anytime without any fees. We offer a stress-free experience for all our users."
+            },
+            {
+              "question": "How do I contact support?",
+              "answer": "You can contact our support team by emailing support@submitfast.ai."
             }
-        ]
+          ]
+
     }
 }
 

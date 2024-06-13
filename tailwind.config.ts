@@ -11,17 +11,18 @@ const config: Config = {
       colors: {
         gray: "#F2F2F2",
         grayBackground: "#F7F7F7",
-        black: "#000",
+        black: "#000000",
         activeButton: "#323832",
         primary: "#f4c64a",
-        white: "white"
+        white: "#FFFFFF",
       },
       borderRadius: {
         DEFAULT: "21px",
-        sm: "8px"
+        sm: "8px",
       },
     },
   },
   plugins: [],
 }
+
 export default config

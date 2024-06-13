@@ -9,15 +9,15 @@ const HowWorks = () => {
   const [activeTitle, setActiveTitle] = useState(0);
 
   return (
-    <div className="mb-24">
+    <div id="howworks" className="mb-24">
       <Title label="How it works" />
       <div className="flex xl:flex-row flex-col gap-8 justify-center">
         <Image
-          src="/hero.jpg"
-          alt="hero"
+          src="/process.svg"
+          alt="How it works"
           width={460}
           height={330}
-          className="xl:w-[460px] w-full xl:order-1 order-2 rounded-sm h-max"
+          className="xl:w-[230px] w-full xl:order-1 order-2 rounded-sm h-max"
         />
         <div className="xl:order-2 order-1 flex flex-col gap-5">
           {config.contents.howWorks.map((item, index) => {

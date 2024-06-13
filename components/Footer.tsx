@@ -11,8 +11,8 @@ const Footer = () => {
           <div className="flex flex-col gap-2">
             <Image
               src={"/logo.svg"}
-              width={180}
-              height={60}
+              width={240}
+              height={80}
               alt={config.title}
             />
             <p className="w-[300px] text-activeButton">{config.description}</p>
@@ -22,10 +22,10 @@ const Footer = () => {
               Links
             </span>
             <ul className="font-medium flex flex-col gap-2 mt-4 text-activeButton">
-              <li>How it works</li>
-              <li>Price</li>
-              <li>FAQ</li>
-              <li>Support</li>
+              <li><a href="#howworks">How it works</a></li>
+              <li><a href="#price">Price</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="mailto:support@submitfast.ai">Support</a></li>
             </ul>
           </div>
           <div>
@@ -39,9 +39,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-11/12 xl:w-[1050px] mx-auto pb-16">
-          © 2023 -
+          © 2024 -
           <Link
-            href="https://twitter.com/beratbozkurt0/status/1699164095994372577"
+            href="https://submitfast.ai"
             passHref
             legacyBehavior
           >
@@ -50,9 +50,10 @@ const Footer = () => {
               className="underline underline-offset-2"
               rel="noopener noreferrer"
             >
-              #buildinpublic
+              SubmitFast.ai
             </a>
           </Link>
+          . All rights reserved.
         </div>
       </div>
     </div>

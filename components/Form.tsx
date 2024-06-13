@@ -30,7 +30,7 @@ const Form = () => {
       .then((res) => res.json())
       .then((data) => {
         if (data.success) {
-          setMessage("Thanks for subscribing!");
+          setMessage("🎉 You've joined the waitlist! Stay tuned for early access and special pricing.");
         } else {
           setMessage("Something went wrong, please try again.");
         }
